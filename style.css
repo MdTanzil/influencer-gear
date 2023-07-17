@@ -136,6 +136,37 @@ text-align: right;
 margin-right: 160px;
 padding: 5px;
 }
+/* featured css  */
+.fratured-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 165px;
+    gap: 90px;
+}
+.fr-right h2{
+    color: #0A0826;
+font-size: 38px;
+font-weight: 700;
+margin-bottom: 16px;
+}
+.fr-right p{
+    color: #6C6C6C;
+font-size: 1rem;
+font-weight: 700;
+line-height: 1.5rem; /* 175% */
+width: 501px;
+height: 88px;
+margin-bottom: 16px;
+}
+.btn-secendary{
+background-color: #E02C6D;
+padding: 10px 24px;
+border: 0;
+color: white;
+
+
+}
 
 /* responsive design for mobile
  */
@@ -148,6 +179,7 @@ padding: 5px;
     width: 202px;
 height: 190px;
   }
+
   .banner-container {
     flex-direction: column-reverse;
     background-position:  50% 190%;
@@ -195,7 +227,22 @@ height: 190px;
     margin-left: 40px;
     margin-right: 5px;
   }
-
+  .fratured-container{
+    margin: 10px 10px;
+    flex-direction: column-reverse;
+  }
+  .fr-right h2{
+    font-size: 24px;
+  }
+  .fr-right p{
+    width: auto;
+    height: auto;
+  }
+  .fr-left img{
+    width: 299px;
+height: 188px;
+margin: 20px 40px 50px 20px;
+  }
 
 }
 /* responsive design for tab
@@ -205,6 +252,7 @@ height: 190px;
   .nav-container {
     flex-direction: column;
   }
+  
   .banner-container {
     flex-direction: column-reverse;
     background-position: top;
@@ -228,5 +276,9 @@ height: 190px;
     grid-template-columns: repeat(2,1fr);
     margin-left: 20px;
     margin-right: 2px;
+  }
+  .fratured-container{
+    margin: 10px 10px;
+    flex-direction: column-reverse;
   }
 }
