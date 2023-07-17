@@ -144,9 +144,13 @@ padding: 5px;
   .nav-items {
     flex-direction: column;
   }
+    .banner-right img{
+    width: 202px;
+height: 190px;
+  }
   .banner-container {
     flex-direction: column-reverse;
-    background-position: top;
+    background-position:  50% 190%;
   }
   .nav-container {
     padding: 10px;
@@ -191,6 +195,7 @@ padding: 5px;
     margin-left: 40px;
     margin-right: 5px;
   }
+
 
 }
 /* responsive design for tab
